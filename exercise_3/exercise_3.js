@@ -41,7 +41,7 @@ const success = (position) => {
   const latitude = position.coords.latitude;
   const longitude = position.coords.longitude;
   showOnScreenUser(
-    `<a href = 'https://www.openstreetmap.org/#map=18/${latitude}/${longitude} target = '_blank'>Гео-локация</a>`
+    `<a href = 'https://www.openstreetmap.org/#map=18/${latitude}/${longitude}' target = '_blank'>Гео-локация</a>`
   );
 };
 
